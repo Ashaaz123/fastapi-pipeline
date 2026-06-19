@@ -4,8 +4,7 @@ from app import app
 client = TestClient(app)
 
 def test_home():
-    response = client.get("/")
-    assert response.status_code == 200
+    assert 1 == 2
 
 def test_about():
     response = client.get("/about")
